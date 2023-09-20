@@ -1,0 +1,162 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Header CSS here */
+header {
+    background-color: #243444;
+    padding: 2rem 2vw;
+    color: white;
+}
+
+header h1 {
+    letter-spacing: .2rem;
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+    font-style: italic;
+}
+
+/* Navigation CSS here */
+nav {
+    background-color: black;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0 2vw;
+}
+nav li.open a {
+    background-color: white;
+    color: black;
+    font-weight: 900;
+}
+nav a:hover {
+    color: #243444;
+}
+
+nav a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: block;
+    font-weight: 700;
+    padding: 1rem 1.2rem;
+    color: white;
+}
+
+/* Main CSS here */
+main {
+    padding: 1rem 2vw;
+    color: #243444;
+}
+main h2 {
+    font-weight: 900;
+    color: #243444;
+    margin-bottom: .4rem;
+}
+main h3 {
+    color: #043c84;
+    font-weight: 700;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #2A4849;
+    margin: 0 0 .2rem 0;
+}
+main ul li {
+    list-style-type: none;
+    border-left: 5px solid;
+    padding: .2rem;
+    border-color: #043c84;
+}
+main ul strong {
+    font-weight: 500;
+    color: #043c84;
+}
+main ol {
+    margin: 0 0 .2rem 0;
+    padding: .5rem 3vw;
+    background-color: #9EB3C2;
+    border-radius: .4rem;
+}
+main dl {
+    margin: 0 0 .2rem 0;
+    padding: 1rem 3vw;
+    background-color: #9EB3C2;
+    border-radius: .4rem;
+}
+main dl dt {
+    color: #043c84;
+    font-weight: 500;
+    font-size: 1rem;
+}
+main dl dd {
+    color: black;
+    font-size: .9rem;
+}
+main dl dd strong {
+    font-style: italic;
+}
+main a:hover {
+    color: #81d951;
+    font-style: oblique;
+}
+
+/* Footer CSS here */
+footer {
+    background-color: #243444;
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #FDFFFC;
+}
+footer a:hover {
+    color: #81d951;
+    font-style: oblique;
+}
+
+
+
+
+/* COLORS USED 
+
+#81d951 - link hover over color
+#fdfffc - footer color
+#243444 - footer and header background color
+#043c84 - dt color, h3 color, and ul <strong> color
+#9EB3C2 - ol background color
+#3e7d1b - nav border, when hover over the text, and box when page is open.
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
